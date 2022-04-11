@@ -1,3 +1,5 @@
 /* styles.css */
-
+div {
+    -webkit-app-region: no-drag;
+  }
 /* Add styles here to customize the appearance of your app */
