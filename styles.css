@@ -8,10 +8,121 @@ body {
   background-repeat: no-repeat;
 }
 
-button {
-  position:fixed;
-  left: 80%;
-  top: 10%;
-  background-color: brown;
+#Close { 
+  position: absolute;
+  margin-left: 1335px;
+  margin-top: 75px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_r.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+#Reduce { 
+  position: absolute;
+  margin-left: 1463px;
+  margin-top: 180px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_b.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+#Reduce:hover { 
+  position: absolute;
+  margin-left: 1463px;
+  margin-top: 180px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_v.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+#Close:hover {
+  position: absolute;
+  margin-left: 1335px;
+  margin-top: 75px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_v.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+dt{
+  color: white;
+  font-family: "Aurebesh";
+  text-align: center;
+  text-size-adjust: 100px;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+dt:hover {
+  color: red;
+  font-family: "Aurebesh";
+  text-align: center;
+  text-size-adjust: 100px;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+#btn_1 {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 660px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/bouton-1.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+#btn_1:hover {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 660px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/bouton-1_hover.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+dd{
+  color: white;
+  font-family: "Aurebesh";
+  text-align: center;
+  text-size-adjust: 100px;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 43px;
+}
+
+dd:hover{
+  color: aqua;
+  font-family: "Aurebesh";
+  text-align: center;
+  text-size-adjust: 100px;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 43px;
 }
 /* Add styles here to customize the appearance of your app */
