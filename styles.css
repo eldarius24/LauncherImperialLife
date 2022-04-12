@@ -1,5 +1,17 @@
 /* styles.css */
 div {
     -webkit-app-region: no-drag;
-  }
+}
+
+body {
+  background-image: url("ressources/images/bg1440_810.png");
+  background-repeat: no-repeat;
+}
+
+button {
+  position:fixed;
+  left: 80%;
+  top: 10%;
+  background-color: brown;
+}
 /* Add styles here to customize the appearance of your app */

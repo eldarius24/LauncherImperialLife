@@ -5,16 +5,13 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <link href="./styles.css" rel="stylesheet">
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
     <title>Launcher Imperial Life</title>
   </head>
 
   <body>
-    <div>
-      <img src="ressources/images/background.png" width="1440" height="810" style="-webkit-app-region: drag"/>
-    </div>
-
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+      <button type="button" id="btnClose"> Close  </button>
   </body>
 
 </html>
