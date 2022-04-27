@@ -6,9 +6,11 @@ div {
 body {
   background-image: url("ressources/images/bg1440_810.png");
   background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-#Close { 
+#btn_close { 
   position: absolute;
   margin-left: 1335px;
   margin-top: 75px;
@@ -21,7 +23,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#Reduce { 
+#btn_reduce { 
   position: absolute;
   margin-left: 1463px;
   margin-top: 180px;
@@ -34,95 +36,81 @@ body {
   background-repeat: no-repeat;
 }
 
-#Reduce:hover { 
+#btn_btn_1 {
   position: absolute;
-  margin-left: 1463px;
-  margin-top: 180px;
+  margin-left: 900px;
+  margin-top: 610px;
   top: -2cm;
   left: -4cm;
-  width: 4cm;
-  height: 4cm;
-  background-image: url("ressources/images/rond_v.png");
-  background-size: 80%;
-  background-repeat: no-repeat;
-}
-
-#Close:hover {
-  position: absolute;
-  margin-left: 1335px;
-  margin-top: 75px;
-  top: -2cm;
-  left: -4cm;
-  width: 4cm;
-  height: 4cm;
-  background-image: url("ressources/images/rond_v.png");
-  background-size: 80%;
-  background-repeat: no-repeat;
-}
-
-dt{
-  color: white;
-  font-family: "Aurebesh";
-  text-align: center;
-  text-size-adjust: 100px;
-  position: absolute;
-  margin-left: 55px;
-  margin-top: 55px;
-}
-
-dt:hover {
-  color: red;
-  font-family: "Aurebesh";
-  text-align: center;
-  text-size-adjust: 100px;
-  position: absolute;
-  margin-left: 55px;
-  margin-top: 55px;
-}
-
-#btn_1 {
-  position: absolute;
-  margin-left: 1090px;
-  margin-top: 660px;
-  top: -2cm;
-  left: -4cm;
-  width: 4cm;
-  height: 4cm;
+  width: 8cm;
+  height: 8cm;
   background-image: url("ressources/images/bouton-1.png");
   background-size: 80%;
   background-repeat: no-repeat;
 }
 
-#btn_1:hover {
+#btn_btn_2 {
   position: absolute;
-  margin-left: 1090px;
-  margin-top: 660px;
+  margin-left: 680px;
+  margin-top: 280px;
   top: -2cm;
   left: -4cm;
-  width: 4cm;
-  height: 4cm;
-  background-image: url("ressources/images/bouton-1_hover.png");
+  width: 6cm;
+  height: 6cm;
+  background-image: url("ressources/images/bouton-1.png");
   background-size: 80%;
   background-repeat: no-repeat;
 }
 
-dd{
-  color: white;
-  font-family: "Aurebesh";
-  text-align: center;
-  text-size-adjust: 100px;
+#btn_info {
   position: absolute;
-  margin-left: 22px;
-  margin-top: 43px;
+  margin-left: 350px;
+  margin-top: 340px;
+  top: -2cm;
+  left: -4cm;
+  width: 28cm;
+  height: 19cm;
+  background-image: url("ressources/images/fond_1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-dd:hover{
-  color: aqua;
-  font-family: "Aurebesh";
-  text-align: center;
-  text-size-adjust: 100px;
+#btn_profil {
   position: absolute;
-  margin-left: 22px;
-  margin-top: 43px;
+  margin-left: 1165px;
+  margin-top: 475px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/profil.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#btn_settings {
+  position: absolute;
+  margin-left: 1215px;
+  margin-top: 395px;
+  top: -2cm;
+  left: -4cm;
+  width: 2cm;
+  height: 2cm;
+  background-image: url("ressources/images/param.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#btn_settings_cadre {
+  position: absolute;
+  margin-left: 1195px;
+  margin-top: 390px;
+  top: -2cm;
+  left: -4cm;
+  width: 2.7cm;
+  height: 2.2cm;
+  background-image: url("ressources/images/cadre_g.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 /* Add styles here to customize the appearance of your app */
