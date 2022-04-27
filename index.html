@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <meta http-equiv="X_UA_Compatible" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' 'ie=edge">
     <link href="./styles.css" rel="stylesheet">
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
@@ -11,7 +12,6 @@
   </head>
 
   <body>
-
       <div id="btn_close">
         <input class="close" type="button" value="X">
         <script></script>
