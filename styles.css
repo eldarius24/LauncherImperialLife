@@ -23,6 +23,39 @@ body {
   background-repeat: no-repeat;
 }
 
+#btn_close:hover {
+  position: absolute;
+  margin-left: 1335px;
+  margin-top: 75px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_v.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.close {
+  color: red;
+  margin-top: 40px;
+  margin-left: 45px;
+  opacity: 0;
+  font-family: "aurebesh";
+  width: 1cm;
+  height: 1cm;
+}
+
+.close:hover {
+  color: red;
+  margin-top: 40px;
+  margin-left: 45px;
+  opacity: 0.1;
+  font-family: "aurebesh";
+  width: 1cm;
+  height: 1cm;
+}
+
 #btn_reduce { 
   position: absolute;
   margin-left: 1463px;
@@ -36,17 +69,83 @@ body {
   background-repeat: no-repeat;
 }
 
-#btn_btn_1 {
+#btn_reduce:hover { 
   position: absolute;
-  margin-left: 900px;
-  margin-top: 610px;
+  margin-left: 1463px;
+  margin-top: 180px;
   top: -2cm;
   left: -4cm;
-  width: 8cm;
-  height: 8cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/rond_v.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.reduce {
+  color: cyan;
+  margin-top: 43px;
+  margin-left: 43px;
+  opacity: 0;
+  font-family: "aurebesh";
+  width: 1cm;
+  height: 1cm;
+}
+
+.reduce:hover {
+  color: cyan;
+  margin-top: 43px;
+  margin-left: 43px;
+  opacity: 0.1;
+  font-family: "aurebesh";
+  width: 1cm;
+  height: 1cm;
+}
+
+#btn_btn_1 {
+  position: absolute;
+  margin-left: 925px;
+  margin-top: 650px;
+  top: -2cm;
+  left: -4cm;
+  width: 6cm;
+  height: 6cm;
   background-image: url("ressources/images/bouton-1.png");
   background-size: 80%;
   background-repeat: no-repeat;
+}
+
+#btn_btn_1:hover {
+  position: absolute;
+  margin-left: 925px;
+  margin-top: 650px;
+  top: -2cm;
+  left: -4cm;
+  width: 6cm;
+  height: 6cm;
+  background-image: url("ressources/images/bouton-1_hover.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.launch {
+  color: cyan;
+  margin-top: 50px;
+  margin-left: 35px;
+  opacity: 0;
+  font-family: "aurebesh";
+  width: 3cm;
+  height: 1cm;
+}
+
+.launch:hover {
+  color: cyan;
+  margin-top: 50px;
+  margin-left: 35px;
+  opacity: 0.1;
+  font-family: "aurebesh";
+  width: 3cm;
+  height: 1cm;
 }
 
 #btn_btn_2 {
@@ -62,16 +161,49 @@ body {
   background-repeat: no-repeat;
 }
 
+#btn_btn_2:hover {
+  position: absolute;
+  margin-left: 680px;
+  margin-top: 280px;
+  top: -2cm;
+  left: -4cm;
+  width: 6cm;
+  height: 6cm;
+  background-image: url("ressources/images/bouton-1_hover.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.update {
+  color: cyan;
+  margin-top: 50px;
+  margin-left: 35px;
+  opacity: 0;
+  font-family: "aurebesh";
+  width: 3cm;
+  height: 1cm;
+}
+
+.update:hover {
+  color: cyan;
+  margin-top: 50px;
+  margin-left: 35px;
+  opacity: 0.1;
+  font-family: "aurebesh";
+  width: 3cm;
+  height: 1cm;
+}
+
 #btn_info {
   position: absolute;
   margin-left: 350px;
   margin-top: 340px;
   top: -2cm;
   left: -4cm;
-  width: 28cm;
-  height: 19cm;
+  width: 35cm;
+  height: 25cm;
   background-image: url("ressources/images/fond_1.png");
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 
@@ -88,6 +220,37 @@ body {
   background-repeat: no-repeat;
 }
 
+#btn_profil:hover {
+  position: absolute;
+  margin-left: 1165px;
+  margin-top: 475px;
+  top: -2cm;
+  left: -4cm;
+  width: 4cm;
+  height: 4cm;
+  background-image: url("ressources/images/profil_hover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.profil {
+  color: blue;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0;
+  width: 3cm;
+  height: 3cm;
+}
+
+.profil:hover {
+  color: blue;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.1;
+  width: 3cm;
+  height: 3cm;
+}
+
 #btn_settings {
   position: absolute;
   margin-left: 1215px;
@@ -99,6 +262,37 @@ body {
   background-image: url("ressources/images/param.png");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+#btn_settings:hover {
+  position: absolute;
+  margin-left: 1215px;
+  margin-top: 395px;
+  top: -2cm;
+  left: -4cm;
+  width: 2cm;
+  height: 2cm;
+  background-image: url("ressources/images/param_hover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.settings {
+  color: blue;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0;
+  width: 1cm;
+  height: 1cm;
+}
+
+.settings:hover {
+  color: blue;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.1;
+  width: 1cm;
+  height: 1cm;
 }
 
 #btn_settings_cadre {
